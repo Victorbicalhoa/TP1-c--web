@@ -1,0 +1,18 @@
+﻿@page
+@model Exercicio02Model
+<h1>Mensagens Multilíngues</h1>
+
+<form method="post">
+    <label>Escolha um idioma:</label>
+    <select asp-for="IdiomaSelecionado">
+        <option value="pt">Português</option>
+        <option value="en">Inglês</option>
+        <option value="es">Espanhol</option>
+    </select>
+    <button type="submit">Exibir Mensagem</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.Mensagem))
+{
+    <p><strong>Mensagem:</strong> @Model.Mensagem</p>
+}

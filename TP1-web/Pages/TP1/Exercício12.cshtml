@@ -1,0 +1,24 @@
+﻿@page
+@model Exercicio12Model
+<h1>Cadastrar Evento</h1>
+
+<form method="post">
+    <label>Título:</label>
+    <input type="text" asp-for="Titulo" required />
+
+    <label>Data:</label>
+    <input type="date" asp-for="Data" required />
+
+    <label>Local:</label>
+    <input type="text" asp-for="Local" required />
+
+    <button type="submit">Criar Evento</button>
+</form>
+
+@if (Model.EventoCriado != null)
+{
+    <h2>Evento Criado:</h2>
+    <p><strong>Título:</strong> @Model.EventoCriado.Titulo</p>
+    <p><strong>Data:</strong> @Model.EventoCriado.Data.ToString("dd/MM/yyyy")</p>
+    <p><strong>Local:</strong> @Model.EventoCriado.Local</p>
+}

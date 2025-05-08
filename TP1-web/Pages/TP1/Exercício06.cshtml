@@ -1,0 +1,20 @@
+﻿@page
+@model Exercicio06Model
+<h1>Registro de Logs</h1>
+
+<form method="post">
+    <label>Insira uma mensagem de log:</label>
+    <input type="text" asp-for="MensagemLog" required />
+    <button type="submit">Registrar Log</button>
+</form>
+
+@if (Model.LogRegistrado.Count > 0)
+{
+    <h2>Saída do Log:</h2>
+    <ul>
+        @foreach (var log in Model.LogRegistrado)
+        {
+            <li>@log</li>
+        }
+    </ul>
+}

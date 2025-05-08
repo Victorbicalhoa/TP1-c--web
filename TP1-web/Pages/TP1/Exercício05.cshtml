@@ -1,0 +1,14 @@
+﻿@page
+@model Exercicio05Model
+<h1>Simulação de Download</h1>
+
+<form method="post">
+    <button type="submit">Iniciar Download</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.Status))
+{
+    <p style="color: @(Model.Status.Contains("✅") ? "green" : "blue");">
+        <strong>Status:</strong> @Model.Status
+    </p>
+}

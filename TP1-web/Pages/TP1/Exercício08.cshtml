@@ -1,0 +1,23 @@
+﻿@page
+@model Exercicio08Model
+<h1>Lista de Produtos</h1>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Preço</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var produto in Model.ListaProdutos)
+        {
+            <tr>
+                <td>@produto.Nome</td>
+                <td>R$ @produto.Preco</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/TP1/Exercício08Sobre">Saiba mais</a>

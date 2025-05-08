@@ -1,0 +1,19 @@
+﻿@page
+@model Exercicio11Model
+<h1>Manipulação de Strings com Delegates Encadeados</h1>
+
+<form method="post">
+    <label>Nome:</label>
+    <input type="text" asp-for="Nome" required />
+
+    <label>Sobrenome:</label>
+    <input type="text" asp-for="Sobrenome" required />
+
+    <button type="submit">Transformar</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.Resultado))
+{
+    <h2>Resultado da Transformação:</h2>
+    <p>@Model.Resultado</p>
+}

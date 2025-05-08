@@ -1,0 +1,16 @@
+﻿@page
+@model Exercicio04Model
+<h1>Monitoramento de Temperatura</h1>
+
+<form method="post">
+    <label>Insira a temperatura atual (°C):</label>
+    <input type="number" step="0.1" asp-for="TemperaturaAtual" required />
+    <button type="submit">Verificar</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.Mensagem))
+{
+    <p style="color: @(Model.Mensagem.Contains("⚠️") ? "red" : "green");">
+        <strong>Status:</strong> @Model.Mensagem
+    </p>
+}

@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Victor\\source\\repos\\TP1-web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7AC0DF-C62A-4247-AB06-B28DD2F18287}|TP1-web\\TP1-web.csproj|c:\\users\\victor\\source\\repos\\tp1-web\\tp1-web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD7AC0DF-C62A-4247-AB06-B28DD2F18287}|TP1-web\\TP1-web.csproj|solutionrelative:tp1-web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7AC0DF-C62A-4247-AB06-B28DD2F18287}|TP1-web\\TP1-web.csproj|c:\\users\\victor\\source\\repos\\tp1-web\\tp1-web\\pages\\tp1\\exerc\u00EDcio12.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD7AC0DF-C62A-4247-AB06-B28DD2F18287}|TP1-web\\TP1-web.csproj|solutionrelative:tp1-web\\pages\\tp1\\exerc\u00EDcio12.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7AC0DF-C62A-4247-AB06-B28DD2F18287}|TP1-web\\TP1-web.csproj|c:\\users\\victor\\source\\repos\\tp1-web\\tp1-web\\pages\\tp1\\exerc\u00EDcio12.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7AC0DF-C62A-4247-AB06-B28DD2F18287}|TP1-web\\TP1-web.csproj|solutionrelative:tp1-web\\pages\\tp1\\exerc\u00EDcio12.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7AC0DF-C62A-4247-AB06-B28DD2F18287}|TP1-web\\TP1-web.csproj|c:\\users\\victor\\source\\repos\\tp1-web\\tp1-web\\pages\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7AC0DF-C62A-4247-AB06-B28DD2F18287}|TP1-web\\TP1-web.csproj|solutionrelative:tp1-web\\pages\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\TP1-web\\TP1-web\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "TP1-web\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\TP1-web\\TP1-web\\Pages\\Index.cshtml*",
+              "RelativeToolTip": "TP1-web\\Pages\\Index.cshtml*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T00:02:34.498Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Exerc\u00EDcio12.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\TP1-web\\TP1-web\\Pages\\TP1\\Exerc\u00EDcio12.cshtml.cs",
+              "RelativeDocumentMoniker": "TP1-web\\Pages\\TP1\\Exerc\u00EDcio12.cshtml.cs",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\TP1-web\\TP1-web\\Pages\\TP1\\Exerc\u00EDcio12.cshtml.cs",
+              "RelativeToolTip": "TP1-web\\Pages\\TP1\\Exerc\u00EDcio12.cshtml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:35:53.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Exerc\u00EDcio12.cshtml",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\TP1-web\\TP1-web\\Pages\\TP1\\Exerc\u00EDcio12.cshtml",
+              "RelativeDocumentMoniker": "TP1-web\\Pages\\TP1\\Exerc\u00EDcio12.cshtml",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\TP1-web\\TP1-web\\Pages\\TP1\\Exerc\u00EDcio12.cshtml",
+              "RelativeToolTip": "TP1-web\\Pages\\TP1\\Exerc\u00EDcio12.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T03:35:40.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\TP1-web\\TP1-web\\Pages\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "TP1-web\\Pages\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\TP1-web\\TP1-web\\Pages\\Models\\Event.cs",
+              "RelativeToolTip": "TP1-web\\Pages\\Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:34:53.384Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
